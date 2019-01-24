@@ -13,15 +13,15 @@ As samples can be from a very complex distribution spanning N-Dimensions. It can
 
 ![Generation of sample](/images/GAN_2.jpg)
 
-__z is the random noise function from which the samples are generated.
+**z is the random noise function from which the samples are generated.
 
 You may be asking yourself that takes care of the Generative part what about Adversarial?
 
 Well that where things get interested so the way GANs are trained is by splitting the problem into two halves. There's one network that Generates the sample and there is another Network that Evaluates/Discriminates the samples which are called the *Generator and *Discriminator Networks respectively. 
 
-*Generator: Try to fool the discriminator by generating real looking samples
+>Generator: Try to fool the discriminator by generating real looking samples
 
-*Discrminator: Try to distinguish between real and fake samples.
+>Discrminator: Try to distinguish between real and fake samples.
 
 ![Fake and Real Images](/images/GAN_3.jpg)
 
