@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 ---
 > You miss 100% of the chances you don't take.
