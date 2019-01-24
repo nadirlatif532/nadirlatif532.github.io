@@ -7,11 +7,12 @@ This post is meant to serve as a brief introduction to a subclass of Neural Nets
 Before diving into GANs we have to discuss the class of models it is derived from, *Generative Models which  can generate new examples from the same distribution as the training data. 
 the meaning can be illustrated in a better way using this image:
 
-![Sample vs Generated](/images/GAN_1.jpg)
+![Sample vs Generated]({{site.baseurl}}/images/GAN_1.JPG)
+
 
 As samples can be from a very complex distribution spanning N-Dimensions. It can be quite hard for a Model to learn how to generate samples from that said distribution. how GANs do this is by sample from a simple distribution such as Gaussian Noise and then transform that said distribution to the target distribution till it generates acceptable samples. 
 
-![Generation of sample](/images/GAN_2.jpg)
+![Generation of sample]({{site.baseurl}}/images/GAN_2.JPG)
 
 **z is the random noise function from which the samples are generated.
 
@@ -29,7 +30,8 @@ Both networks are jointly trained where the purpose of the Generator is to keep 
 
 The way the two networks are in the form of a minimax game which can be using this rather complicated looking equation (which isn't that complicated):
 
-![Mini Max](/images/GAN_4.jpg)
+![Mini Max]({{site.baseurl}}/images/GAN_4.JPG)
+
 
 Let's breakdown the equation and go through it part by part:
 
@@ -45,6 +47,7 @@ So effectively, the Generator is being trained to generate samples that can fool
 
 Lastly I would like to share an example implementation of GANs from Radford et al, Presented at ICLR 2016. which cleverly shows the prowess and potential of GANs
 
-![Example Implementation](/images/GAN_5.jpg)
+![Example Implementation]({{site.baseurl}}/images/GAN_5.JPG)
+
 
 A lot of work is being done on GANs and it has rapidly improved over time. I urge you to take a look at [GAN ZOO](https://github.com/hindupuravinash/the-gan-zoo "The GAN Zoo"). A list of all named GANs in a handy easily accessible repository, Thanks to [Avinash Hindupur](https://github.com/hindupuravinash "Avinash Hindupur"). Till next time patient readers!
