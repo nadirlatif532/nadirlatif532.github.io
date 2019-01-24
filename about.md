@@ -12,7 +12,7 @@ It's nice to associate a face with a name. I'm Nadir Latif, a Computer Science g
 
 ### What I'm doing/reading currently:
 * Reading Deep Learning by Ian  Goodfellow, Yoshua Bengio and Aaron Courville. (You should read it too. it's available for free online at [Deep Learning](https://www.deeplearningbook.org "Deep Learning")
-* Enrolled in the Deep Learning Specialization by Deeplearning.ai at Coursera. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning "Deep Learning Specialization)
+* Enrolled in the Deep Learning Specialization by Deeplearning.ai at Coursera. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning "Deep Learning Specialization")
 * Enrolled in the Game Development Specialization by Michigan State University. [Game Design & Development](https://www.coursera.org/specializations/game-development "Game Design and Development Specialization")
 * Going through CS231 MIT. [Convolutional Neural Networks for Visual Recognition](https://www.http://cs231n.stanford.edu "Convolutional Neural Networks for Visual Recognition")
 
