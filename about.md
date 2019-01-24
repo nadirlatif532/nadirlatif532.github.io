@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
-![My Picture]({{site.baseurl}}/https://avatars1.githubusercontent.com/u/18704984?s=400&u=932ef18b7afc396dcebad21e43af42c0e179d266&v=4) 
+![My Picture]({{site.baseurl}}//50439941_295520037819193_3956556536301486080_n.jpg)
 ---
 It's nice to associate a face with a name. Hello I'm Nadir Latif, a Computer Science grad from COMSATS University Islamabad, Lahore Campus with a passion for everything related to Games and Game-dev. Recently I've started dabbling in Machine Learning and have fallen in love with it. 
 
