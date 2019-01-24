@@ -33,13 +33,13 @@ The way the two networks are in the form of a minimax game which can be using th
 
 Let's breakdown the equation and go through it part by part:
 
-*Dθ_d(x) = Discriminator output for real data X
+>Dθ_d(x) = Discriminator output for real data X
 
-*Dθ_d(Gθ_g(z) = Discriminator output for generated fake data z
+>Dθ_d(Gθ_g(z) = Discriminator output for generated fake data z
 
-*minθg: Generator (θg) wants to minimize objective such that D(G(z)) is close to 1 (discriminator is fooled into thinking generated G(z) is real)
+>minθg: Generator (θg) wants to minimize objective such that D(G(z)) is close to 1 (discriminator is fooled into thinking generated G(z) is real)
  
-*maxθd: Discriminator (θd) wants to maximize objective such that D(x) is close to 1 (real) and D(G(z)) is close to 0 (fake)
+>maxθd: Discriminator (θd) wants to maximize objective such that D(x) is close to 1 (real) and D(G(z)) is close to 0 (fake)
 
 So effectively, the Generator is being trained to generate samples that can fool the discriminator and the discriminator is being trained to classify the samples correctly. How these are trained through Back-Propagation is out of the scope of this post (and my knowledge currently, I shall update once I have a better grip).
 
