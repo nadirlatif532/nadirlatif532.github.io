@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: #
 github_username:  nadirlatif532
-facebook_username: nadirlatif532
+facebook_username: nadir.lateef
 linkedin_username: nadirlatif532
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
