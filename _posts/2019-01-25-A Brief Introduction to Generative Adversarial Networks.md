@@ -35,9 +35,9 @@ The way the two networks are in the form of a minimax game which can be using th
 
 Let's breakdown the equation and go through it part by part:
 
->Dθ_d(x) = Discriminator output for real data X
+>Dθ_d(x): Discriminator output for real data X
 
->Dθ_d(Gθ_g(z) = Discriminator output for generated fake data z
+>Dθ_d(Gθ_g(z)): Discriminator output for generated fake data z
 
 >minθg: Generator (θg) wants to minimize objective such that D(G(z)) is close to 1 (discriminator is fooled into thinking generated G(z) is real)
  
